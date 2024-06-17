@@ -1,8 +1,6 @@
 import {GPTScript} from "@gptscript-ai/gptscript";
 
-export const config = {
-  maxDuration: 60,
-};
+export const maxDuration = 60;
 
 export async function GET() {
   const g = new GPTScript();
