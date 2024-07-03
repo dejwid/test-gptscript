@@ -1,0 +1,9 @@
+tools: github.com/gptscript-ai/browser
+description: creates a text story from a link
+args: link: Link to the article
+
+Do the following sequentially, do not run in parallel. Always overwrite files.
+1. Browse ${link}
+2. Create a tldr text version of it for a instagram reel / tiktok video. The text should take around 15-30 seconds to read. It should start with a hook to make the video more viral and interesting
+3. Split text into into 2-3 fragments.
+4. Return each fragment (including the intro/hook) as a plain text, separate fragments with "|||"
